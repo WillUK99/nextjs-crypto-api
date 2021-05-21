@@ -1,0 +1,37 @@
+.coin_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: large;
+}
+
+.coin_container{
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 10px;
+    padding: 3rem 9rem;
+    text-align: center;
+    line-height: 2rem;
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.symbol {
+    text-transform: uppercase;
+}
+
+.coin_highlow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(0, 223, 0);
+}
